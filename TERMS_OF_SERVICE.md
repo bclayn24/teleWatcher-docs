@@ -76,7 +76,7 @@ To use the Service, you must authorize your own Telegram account via MTProto API
 - A one-time confirmation code from Telegram (sent by Telegram to verify ownership)
 - Your two-factor authentication (2FA) password, if enabled
 
-We do not store your Telegram password or confirmation code. Only the session key (authentication token) required to maintain connection is stored. This session key is encrypted during storage and can be revoked at any time from your Telegram settings (Settings → Devices → Active Sessions).
+We do not store your Telegram password or confirmation code. Only the session key (authentication token) required to maintain connection is stored. This session key is stored to maintain the connection and can be revoked at any time from your Telegram settings (Settings → Devices → Active Sessions).
 
 ### 4.2 User Responsibility
 

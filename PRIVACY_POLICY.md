@@ -21,7 +21,7 @@ Galaxy-craft and Bclayn are two independent developers, age 17, based in Uzbekis
 | Data                 | Encryption               | Retention              |
 | -------------------- | ------------------------ | ---------------------- |
 | Phone number         | AES-256-GCM              | Until account deletion |
-| Telegram session key | AES-256-GCM              | Until account deletion |
+| Telegram session key | Not encrypted            | Until account deletion |
 | Message text         | AES-256-GCM              | 30 days                |
 | Message metadata     | AES-256-GCM              | 30 days                |
 | Media files          | None — plaintext storage | 24 hours               |

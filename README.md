@@ -17,13 +17,13 @@ Telegram doesn't let you see messages after they've been deleted or edited. Tele
 3. When a message is deleted or edited, it is captured and stored encrypted
 4. When a media file is deleted, you receive a notification with an option to recover it
 
-TeleWatcher never stores your Telegram password or verification code. Only a session key (authentication token) is stored, encrypted with AES-256-GCM. You can revoke access at any time from Telegram Settings → Devices → Active Sessions.
+TeleWatcher never stores your Telegram password or verification code. Only a session key (authentication token) is stored to maintain the connection. You can revoke access at any time from Telegram Settings → Devices → Active Sessions.
 
 ---
 
 ## Privacy and security
 
-- All message text, metadata, and session keys are encrypted at rest with AES-256-GCM
+- All message text, metadata are encrypted at rest with AES-256-GCM
 - Media files are stored without encryption for 24 hours, then permanently deleted
 - Data is stored on servers in San Francisco, USA
 - Users can wipe all data instantly with `/delete_account`
