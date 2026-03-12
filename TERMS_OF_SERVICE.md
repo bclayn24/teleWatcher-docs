@@ -1,8 +1,8 @@
 # Terms of Service
 
 **Effective date:** March 6, 2026  
-**Last updated:** March 6, 2026  
-**Version:** 1.0
+**Last updated:** March 12, 2026  
+**Version:** 1.1
 
 **Developers:** Galaxy-craft, Bclayn  
 **Contact:** botb86792@gmail.com  
@@ -23,10 +23,12 @@ We reserve the right to update these Terms at any time. Material changes will be
 Under Article 22 of the Civil Code of the Republic of Uzbekistan, minors aged 14–18 possess limited civil legal capacity. You acknowledge that:
 
 - No registered legal entity or sole proprietorship is currently associated with this Service;
-- The Service is operated by natural persons on a non-commercial Beta/Educational basis;
-- Users who require a counterparty with full legal capacity should refrain from using the Service until a legal entity is established or the Developers reach the age of majority.
+- The Service is operated by natural persons on a Beta basis, without a registered legal entity;
 
-By using the Service with knowledge of the foregoing, you expressly acknowledge the Developers' legal status and waive claims based solely thereon to the maximum extent permitted by applicable law.
+By using the Service with knowledge of the foregoing, you expressly
+acknowledge the Developers' legal status. Users who require a counterparty
+with full legal capacity should refrain from using the Service until a
+legal entity is established or the Developers reach the age of majority.
 
 ---
 
@@ -36,7 +38,8 @@ The Service is a Telegram-based monitoring tool that allows users to track activ
 
 - Preservation of deleted messages
 - Tracking of edited messages
-- Recovery of media files (photos, voice messages, videos) upon user request
+- Automatic delivery of deleted media files (photos, voice messages, videos)
+  upon activation of the applicable subscription tier
 
 The Service operates by connecting to your personal Telegram account via MTProto API and functions as an additional device on your account.
 
@@ -92,68 +95,110 @@ New user registrations require administrator approval. We reserve the right to r
 
 ---
 
-## 5. Subscription Plans and Payment
+## 5. Balance System, Subscription Tiers and Payment
 
-### 5.1 Subscription Plans
+### 5.1 Internal Balance System
 
-The Service offers the following plans:
+The Service operates on an internal prepaid balance system. All subscription
+activations are paid from the User's in-bot balance. One coin is equal to
+1,000 Uzbek sum.
 
-**Free Tier:**
+The User's balance constitutes prepaid credit and is non-refundable upon
+top-up, except as expressly required under Section 5.5. By topping up their
+balance, the User acknowledges that coins hold no cash value outside the
+Service and cannot be withdrawn or transferred.
 
-- Monitor up to 2 personal chats (direct messages only)
-- Text-only monitoring: track text messages, edits, and deletions
-- Media file deletions are detected but cannot be recovered (Premium feature)
-- 30-day message history retention
-- Older messages automatically deleted
+Balance top-up is accepted via cash or bank transfer. Payment is made to the
+Developers directly and processed manually by an administrator. There is no
+automated billing or payment system. Top-up typically occurs within 24 hours
+of payment receipt.
 
-**Premium Tier:**
+Upon receipt of payment, the administrator credits the corresponding coin
+amount to the User's account and sends a written confirmation to the User's
+Telegram account stating the amount paid, the number of coins credited, and
+the date of top-up. This confirmation constitutes the sole basis for any
+liability calculation under Section 11.3. In the absence of such a
+confirmation, no payment shall be presumed to have occurred.
 
-- Monitor up to 20 chats total (any combination of personal chats, groups, and channels)
-- Full monitoring: text messages, edits, deletions, and media files
-- Media recovery available upon request with privacy warnings
-- 30-day message history retention
-- Priority support
-- Pricing determined individually and communicated during registration
+### 5.2 Subscription Tiers
 
-**Current status:** Beta testing. Plan features and pricing may change at any time. Changes will apply to new subscriptions and renewals only. Active subscriptions maintain their original terms until renewal.
+The Service offers three independent monitoring tiers. The Personal Chats
+tier covers monitoring of direct messages only. The Groups tier covers
+monitoring of group chats. The Channels tier covers monitoring of Telegram
+channels, including message deletions and media delivery where applicable.
 
-### 5.2 Payment Methods
+A User may activate one, two, or all three tiers simultaneously. Each
+activation is a separate balance deduction. The current cost of each tier
+is as displayed in the Bot at the time of activation. Pricing is set by
+the Developers and may change at any time. Changes to subscription pricing
+constitute material changes for purposes of Section 1 and will be announced
+via the Bot with a minimum of seven days' advance notice before taking
+effect. Active subscriptions maintain their original cost until the current
+30-day period expires.
 
-Payment is accepted via:
+### 5.3 Subscription Period and Renewal
 
-- Cash (for beta testers and personal acquaintances)
-- Bank transfer (by prior arrangement)
+Each activated tier is valid for 30 days from the date of activation. Renewal
+is not automatic. Upon expiration, monitoring for the affected tier stops
+immediately, the Bot notifies the User that the subscription has expired, and
+the User may re-activate the tier manually by deducting the applicable amount
+from their balance.
 
-**Payment Documentation:** All payments — regardless of method — are confirmed in writing by the Developers via a timestamped message or receipt sent to the User's Telegram account or email, stating the amount, subscription tier, and activation date. This record constitutes the sole basis for any liability calculation under Section 11.3.
+The Developers are not responsible for any data not captured during a lapsed
+subscription period.
 
-Payment confirmation is recorded manually by administrators. There is no automated billing system. Subscription activation typically occurs within 24 hours of payment confirmation.
+### 5.4 Discount Coupons
 
-**Note:** During beta testing, payment processing is informal. Upon official launch, we will implement proper payment systems and tax compliance.
+The Service supports single-use discount coupons. Coupons may be issued
+exclusively by the Developers (Galaxy-craft and Bclayn) at their sole
+discretion. Coupons provide a percentage discount on the coin cost of a
+single tier activation. The discount amount is determined individually per
+coupon at the time of issuance.
 
-### 5.3 Refunds
+Each coupon is single-use and expires upon redemption. Coupons cannot be
+combined with other coupons or promotions, hold no cash value, and cannot be
+exchanged for balance. The Developers reserve the right to cancel or modify
+coupon terms at any time.
 
-Refunds are generally not provided once the Service has been activated, except in the following cases:
+### 5.5 Refunds
 
-- **Technical inability:** If the Service is unavailable for more than 7 consecutive days due to our fault, you may choose between:
-  - A prorated refund for the period of unavailability, OR
-  - Free extension of your subscription for the equivalent period
+Refunds are generally not provided once a subscription tier has been
+activated. Where a refund is approved, it is issued in cash or via bank
+transfer and processed within 7 business days of approval.
 
-- **Cooling-off period:** You may cancel within 14 days of initial payment and receive a full refund if Premium monitoring has not yet been activated for your account, in accordance with the Law of the Republic of Uzbekistan "On Consumer Rights Protection." Once an administrator activates your Premium subscription and you receive written confirmation, the service is considered to have commenced, and this cooling-off period no longer applies.
+To request a refund, the User must submit a support ticket through the
+built-in ticket system in the Bot. The request must include the reason for
+the refund and reference the relevant payment confirmation issued under
+Section 5.1. Refund requests submitted through any other channel will not
+be considered.
 
-- **Service defects:** If the Service fails to perform as described in these Terms due to technical defects on our part:
-  - Complete non-functionality: Full refund or free extension for the affected period
-  - Partial functionality: Prorated refund or free extension proportional to unavailable features
-  - Minor bugs: We will make reasonable efforts to fix the issue, but no refund is guaranteed for minor issues that do not substantially impair functionality
+The following exceptions apply.
 
-In the event of account suspension for Terms violations, no refund will be issued.
+**Technical inability.** If the Service is unavailable for more than 7
+consecutive days due to our fault, the User may choose between a prorated
+refund for the period of unavailability or a free extension of the affected
+subscription for the equivalent period.
 
-### 5.4 Data Retention
+**Service defects.** If the Service fails to perform as described in these
+Terms due to technical defects on our part, the following applies. In the
+case of complete non-functionality, a full refund or free extension is
+available for the affected period. In the case of partial functionality, a
+prorated refund or extension proportional to the unavailable features may be
+issued. Minor bugs that do not substantially impair functionality do not
+entitle the User to a refund, though the Developers will make reasonable
+efforts to resolve them promptly.
 
-**Message History:** Captured text messages are stored in an encrypted format for a period of 30 days. Upon reaching this limit, messages are automatically and permanently deleted from our servers.
+In the event of account suspension for Terms violations, no refund will
+be issued.
 
-**Media Files:** Downloaded media files (photos, voice messages, videos) are automatically deleted from our servers after 24 hours, regardless of subscription plan.
+### 5.6 Data Retention
 
-Users may delete all their data at any time by using the `/delete_account` command in the Bot.
+Captured text messages are stored in encrypted format for 30 days, then
+permanently deleted. Session keys are stored using access-controlled
+server infrastructure and are deleted immediately upon account deletion.
+Downloaded media files are automatically deleted after 24 hours, regardless
+of active subscription status. Users may delete all data at any time via
+`/delete_account`.
 
 ---
 
@@ -163,9 +208,10 @@ Users may delete all their data at any time by using the `/delete_account` comma
 
 You may:
 
-- Monitor your own Telegram chats
-- Recover deleted or edited messages from your chats
-- Download media files from your chats upon request (Premium feature)
+- Monitor your own Telegram chats by activating the applicable subscription tier
+- Recover deleted or edited messages from your monitored chats
+- Receive deleted media files from your monitored chats automatically,
+  subject to an active subscription tier that includes media monitoring
 
 ### 6.2 Prohibited Conduct
 
@@ -186,7 +232,7 @@ You must not:
 - Transfer access to your account to third parties
 
 **Enforcement and Monitoring:**
-To ensure compliance with these Terms and to assist in potential law enforcement investigations, we maintain activity logs of certain user actions, including but not limited to media file recovery requests. These logs contain only technical metadata (such as user identifiers, timestamps, and action types) and do not include the actual content of messages or media files. Logs are retained for 30 days and then automatically deleted. Media files themselves are deleted after 24 hours as described in Section 5.4.
+To ensure compliance with these Terms and to assist in potential law enforcement investigations, we maintain activity logs of certain user actions, including but not limited to media delivery events and subscription activations. These logs contain only technical metadata (such as user identifiers, timestamps, and action types) and do not include the actual content of messages or media files. Logs are retained for 30 days and then automatically deleted. Media files themselves are deleted after 24 hours as described in Section 5.6.
 
 **Reporting Violations:**
 If you become aware of any user violating these Terms or engaging in unlawful activity through the Service, please report it to botb86792@gmail.com. We will investigate all reports and take appropriate action, which may include account suspension or cooperation with law enforcement authorities.
@@ -210,7 +256,14 @@ The Service provides a technical tool only. We are not responsible for how you u
 - (a) your use or misuse of the Service;
 - (b) your violation of these Terms or of any applicable law or regulation, including Uzbekistan Law No. ZRU-547 and Article 141 of the Criminal Code of the Republic of Uzbekistan;
 - (c) your processing of personal data belonging to third parties through the Service, including any claim brought by a third party whose messages or media were captured via your activated monitoring;
-- (d) any suspension, limitation, or permanent ban of your Telegram account by Telegram Messenger Inc. resulting from your use of the Service, and any legal action, dispute, or administrative proceeding arising therefrom;
+- (d) any suspension, limitation, or permanent ban of your Telegram account
+  by Telegram Messenger Inc. arising from your use of the Service in a manner
+  that materially deviates from its described functionality under Section 2,
+  or that constitutes prohibited conduct under Section 6.2. No indemnification
+  obligation arises under this clause solely by reason of the Service
+  operating as described as a userbot connected to your Telegram account
+  via MTProto API and Telegram enforcing its own platform policies as a
+  result.
 - (e) any claim that your use of recovered content caused harm, reputational damage, or legal liability to any third party.
 
 This indemnification obligation survives termination or expiration of these Terms and deletion of your account.
@@ -219,24 +272,21 @@ This indemnification obligation survives termination or expiration of these Term
 
 ## 7. Media Files and Private Content
 
-### 7.1 On-Request Download Policy
+### 7.1 Media Delivery Policy
 
-Media files (photos, videos, voice messages) are not downloaded automatically.
+Media files (photos, videos, voice messages) deleted by other parties in
+your monitored chats are delivered automatically once you have activated
+a subscription tier that includes media monitoring and confirmed the
+associated risk warning.
 
-When a deleted media file is detected, the Service:
+Prior to activation, the Service displays a warning informing you of the
+privacy, legal, and ethical risks associated with receiving deleted content,
+including the fact that media files are stored in temporary server
+storage for 24 hours before automatic deletion. Activation constitutes your explicit acknowledgment of these risks.
 
-1. Stores only metadata (sender, timestamp, file type)
-2. Displays a notification with a "Recover Media File" button
-3. Shows a warning before download (see Section 7.2)
-4. Downloads the file only after user confirmation
+### 7.2 Automatic Deletion
 
-### 7.2 Risk Warning
-
-Before recovering any deleted media file, the Service displays a clear warning informing the user of potential privacy, legal, and ethical risks associated with recovering deleted content, including the fact that media files are stored without encryption for 24 hours (see Privacy Policy, Section 3.2).
-
-### 7.3 Automatic Deletion
-
-All downloaded media files are automatically deleted from our servers 24 hours after download, regardless of subscription plan.
+All delivered media files are automatically deleted from our servers 24 hours after download, regardless of active subscription tier.
 
 You may manually delete files before this period expires.
 
@@ -259,14 +309,14 @@ Upon suspension:
 
 - Monitoring ceases immediately
 - Access to the Service is blocked
-- Paid subscription fees are not refunded
+- Paid subscription fees are not refunded, except as provided in Section 5.5
 
 **Data Handling After Suspension:**
 
 If suspension is due to Terms violations, unlawful activity, or third-party complaints:
 
 - Message history and activity logs will be retained for up to 30 days to facilitate potential law enforcement investigations
-- Media files will still be deleted after 24 hours in accordance with Section 5.4
+- Media files will still be deleted after 24 hours in accordance with Section 5.6
 - After 30 days, all remaining data will be permanently deleted
 
 If suspension is at the user's request or for non-violation administrative reasons:
@@ -347,7 +397,7 @@ The Developers shall not be liable for any failure or delay in the performance o
 
 In the event of a force majeure condition, the Developers will make reasonable efforts to notify users via the Bot and restore service as soon as practicable. Subscription periods affected by force majeure events lasting more than 7 consecutive days will be extended by the equivalent duration at no additional charge.
 
-**For the avoidance of doubt:** Changes to the Telegram API that render the Service non-functional — in whole or in part — constitute a force majeure event. The Developers are not liable for service interruption or data loss resulting from such changes, and no refund is owed solely on account of API-driven disruption.
+**For the avoidance of doubt:** Changes to the Telegram API that render the Service non-functional - in whole or in part - constitute a force majeure event. The Developers are not liable for service interruption or data loss resulting from such changes, and no refund is owed solely on account of API-driven disruption.
 
 ---
 
@@ -360,7 +410,7 @@ To the maximum extent permitted by the laws of the Republic of Uzbekistan:
 The Developers shall not be liable for any damages arising from the use or inability to use the Service, including but not limited to:
 
 - Any suspension, limitation, or permanent ban of your Telegram account by Telegram Messenger Inc.;
-- Loss of data due to technical malfunctions, server errors, or Telegram API changes (see also Section 10.4 — Force Majeure);
+- Loss of data due to technical malfunctions, server errors, or Telegram API changes (see also Section 10.4 - Force Majeure);
 - Legal disputes, social conflicts, or reputational damage resulting from the recovery of deleted or edited messages and media.
 
 ### 11.2 Personal Responsibility
@@ -369,14 +419,25 @@ You are solely responsible for your compliance with Telegram's Terms of Service 
 
 ### 11.3 Maximum Liability Cap
 
-**Our total liability for any claim related to the Service is strictly limited to the amount documented as paid by you for the Service in the 30 days immediately preceding the event giving rise to the claim**, as evidenced by the written payment confirmation issued under Section 5.2.
+**Our total liability for any claim related to the Service is strictly
+limited to the amount documented as paid by you in the 30 days immediately
+preceding the event giving rise to the claim**, as evidenced by the written
+payment confirmation issued under Section 5.1.
 
-**The following rules apply:**
-
-- **Free Tier users:** Our liability is zero (0), as no payment has been made.
-- **Premium users:** Liability is capped at the verified paid amount in the preceding 30 days. In the absence of a written payment record issued under Section 5.2, no liability shall be presumed, and the cap defaults to zero.
-- **Consequential damages:** Under no circumstances shall the Developers be liable for indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or business opportunities, regardless of the theory of liability.
-- **Statutory rights:** Nothing in this Section limits any rights you may hold that cannot be excluded or limited by contract under mandatory provisions of Uzbekistan consumer protection law, including the right to claim damages for personal injury caused by gross negligence or wilful misconduct on the part of the Developers.
+The following rules apply. Where no written payment confirmation exists
+under Section 5.1, no payment shall be presumed to have occurred and our
+liability defaults to zero. Where the User can demonstrate payment by
+means of a verified bank transfer record in the absence of a written
+confirmation under Section 5.1, such record shall be accepted as evidence
+of the payment amount for purposes of this Section. Under no circumstances
+shall the Developers be liable for indirect, incidental, special,
+consequential, or punitive damages, including loss of profits, data, or
+business opportunities, regardless of the theory of liability. Nothing in
+this Section limits any rights you may hold that cannot be excluded or
+limited by contract under mandatory provisions of Uzbekistan consumer
+protection law, including the right to claim damages for personal injury
+caused by gross negligence or wilful misconduct on the part of the
+Developers.
 
 ---
 
@@ -384,7 +445,13 @@ You are solely responsible for your compliance with Telegram's Terms of Service 
 
 These Terms are governed by the laws of the Republic of Uzbekistan.
 
-All disputes arising from these Terms or use of the Service shall be resolved in the courts of the Republic of Uzbekistan in the location of the Developer.
+All disputes arising from these Terms or use of the Service shall be
+resolved in the courts of the city of Tashkent, Republic of Uzbekistan.
+Before initiating any legal proceeding, the claiming party must notify
+the other party of the dispute via the built-in ticket system or by email
+to botb86792@gmail.com and allow 30 calendar days for good-faith
+resolution. This requirement does not apply to claims for urgent
+injunctive relief.
 
 ---
 
@@ -406,12 +473,97 @@ These Terms, together with the **teleWatcher Privacy Policy** ([published at](ht
 
 ---
 
+## 14. Referral Programme
+
+### 14.1 Eligibility
+
+A User may apply to participate in the Referral Programme as an Inviter.
+To be eligible at the time of application, the User must hold an active
+subscription to at least one monitoring tier.
+
+Inviter status is granted exclusively at the discretion of an administrator
+and requires explicit written approval. The Developers reserve the right to
+reject any application without providing a reason and to revoke Inviter
+status at any time without notice.
+
+### 14.2 Referral Link
+
+Upon approval, the Inviter is assigned a unique personal referral link in
+the format t.me/teleWatcherBot?start=[UUID]. When a new user accesses the
+Service through this link, the Service automatically records the referral
+association between the new user and the Inviter.
+
+The referral link is personal and non-transferable. The Inviter may not
+sell, assign, or otherwise transfer their referral link to a third party.
+Artificial generation of referrals, including through automated tools or
+coordinated self-referral schemes, constitutes a violation of Section 6.2
+and may result in immediate account suspension without refund and
+cancellation of all pending referral balance accruals.
+
+### 14.3 Link Availability
+
+The referral link is active only while the Inviter holds an active
+subscription to at least one monitoring tier. Upon expiration of all active
+subscriptions, the referral link is suspended automatically and will not
+record new referral associations until the Inviter renews at least one
+subscription tier.
+
+### 14.4 Balance Accrual
+
+The Inviter receives a coin balance accrual when a User who registered
+through the Inviter's referral link makes their first subscription payment,
+as evidenced by the written payment confirmation issued under Section 5.1.
+
+Balance is accrued regardless of whether the Inviter holds an active
+subscription at the time the referred User makes payment, provided that
+the referral association was recorded while the Inviter's link was active
+under Section 14.3.
+
+No accrual is made for referral associations that were not recorded through
+the Inviter's active referral link, or for referred Users who do not make
+a confirmed subscription payment.
+
+The amount accrued per qualifying referral is determined by the Developers
+at their sole discretion and communicated to the Inviter at the time of
+approval or displayed in the Bot. The Developers reserve the right to
+modify the accrual amount at any time. Changes apply to referrals recorded
+after the date of change only. Referral associations recorded before the
+change maintain the accrual amount applicable at the time of recording.
+
+### 14.5 Nature of Referral Balance
+
+Accrued referral balance constitutes in-service credit subject to the same
+terms as top-up balance under Section 5.1. Referral balance holds no cash
+value, cannot be withdrawn, and cannot be transferred to another account.
+
+### 14.6 Inviter Responsibility
+
+The Inviter is solely responsible for how they promote the Service to
+third parties. The Inviter must not make false or misleading representations
+about the Service, its features, pricing, or legal status. Any claim
+arising from an Inviter's promotional activity is the sole responsibility
+of the Inviter and shall not be attributed to the Developers.
+
+### 14.7 Minors as Inviters
+
+An Inviter who is under 18 years of age confirms that their parent or legal
+guardian has been informed of and consented to their participation in the
+Referral Programme. The Developers do not verify this consent independently
+and bear no responsibility for the participation of minors whose guardians
+have not in fact consented.
+
+---
+
 **By using the Service, you confirm that:**
 
 - You have read and understood these Terms and the Privacy Policy
 - You agree to them in their entirety
 - You meet the age requirements (or have obtained parental consent if aged 16–17)
-- You are aware that the Developers are minors operating a non-commercial Beta project
-- You will use the Service only to monitor your own chats
+- You are aware that the Developers are minors operating a Beta project
+- You will only activate monitoring for your own Telegram chats.
 - You bear full responsibility for the use of recovered content
 - You consent to cross-border data transfer to servers in San Francisco, USA
+- If participating in the Referral Programme, you confirm that you meet
+  the eligibility requirements set out in Section 14.1 and that, if you
+  are under 18 years of age, your parent or legal guardian has consented
+  to your participation

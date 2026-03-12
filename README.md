@@ -2,7 +2,7 @@
 
 > A Telegram monitoring userbot that preserves deleted and edited messages, and recovers deleted media files on demand.
 
-**Status:** Private Beta · **Version:** 1.0 · **Platform:** Telegram (MTProto API)
+**Status:** Private Beta · **Version:** 1.1 · **Platform:** Telegram (MTProto API)
 
 ---
 
@@ -15,7 +15,9 @@ Telegram doesn't let you see messages after they've been deleted or edited. Tele
 1. You authorize your Telegram account via MTProto API, the same process as adding a new device
 2. TeleWatcher runs as a background session on your account
 3. When a message is deleted or edited, it is captured and stored encrypted
-4. When a media file is deleted, you receive a notification with an option to recover it
+4. When a media file is deleted, it is automatically delivered
+   to you if you have an active subscription tier that includes
+   media monitoring
 
 TeleWatcher never stores your Telegram password or verification code. Only a session key (authentication token) is stored to maintain the connection. You can revoke access at any time from Telegram Settings → Devices → Active Sessions.
 
